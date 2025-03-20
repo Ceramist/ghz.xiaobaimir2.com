@@ -19,7 +19,7 @@
 
 
 [Setup]
-公告地址=https://ghz.xiaobaimir2.com/link/link.html?date=20250320222222
+公告地址=https://ghz.xiaobaimir2.com/link/link20250320220000.html?date=20250320222222
 官方首页=https://mir.xiaobaimir2.com
 客户服务=https://mir.xiaobaimir2.com
 
