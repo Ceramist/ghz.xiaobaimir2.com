@@ -23,9 +23,9 @@
 
 
 [Setup]
-公告地址=https://ghz.xiaobaimir2.com/link/link.html?date=202506110002
-官方首页=https://mir.xiaobaimir2.com
-客户服务=https://mir.xiaobaimir2.com
+公告地址=https://ghz.chops.cn/link/link.html?date=202506110002
+官方首页=https://mir.chops.cn
+客户服务=https://mir.chops.cn
 
 [expand]
 0=【永恒古惑仔总战区】=1
