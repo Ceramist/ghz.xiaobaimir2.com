@@ -125,8 +125,8 @@ var _hmt = _hmt || [];
                                 <td width="155">赞助充值</td>
                             </tr>
                             <tr class="tbcont">
-                                <td><img src="images/huo.png" tppabs="/images/huo.png" />&nbsp;&nbsp;<span>古惑经典怀旧区</span></td>
-                                <td>2024-04-06开区</td>
+                                <td><img src="images/huo.png" tppabs="/images/huo.png" />&nbsp;&nbsp;<span>永恒古惑仔新区</span></td>
+                                <td><span id="current-date1"></span>开区</td>
                                 <td><a href="https://wwbp.lanzouw.com/iGUPE38ewfpi" tppabs="雷神古惑仔.zip"target="_blank"><img src="images/downbtn.png" border="0" tppabs="/images/downbtn.png" /></a></td>
                                 <td><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=f404471e7e1f0e87c8cd4836bc7e7bfbbb70b30ebda033d762f6d6e550acdce9"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="古惑仔传奇玩家群" title="古惑仔传奇玩家群"></a></td>
                                 <td><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=f404471e7e1f0e87c8cd4836bc7e7bfbbb70b30ebda033d762f6d6e550acdce9"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="古惑仔传奇玩家群" title="古惑仔传奇玩家群"></a></td>
@@ -144,8 +144,8 @@ var _hmt = _hmt || [];
                         <td width="155">赞助充值</td>
                     </tr>
                     <tr class="tbcont">
-                        <td><img src="images/huo.png" tppabs="/images/huo.png" />&nbsp;&nbsp;<span>古惑决战魔龙区</span></td>
-                        <td>2024-04-20开区</td>
+                        <td><img src="images/huo.png" tppabs="/images/huo.png" />&nbsp;&nbsp;<span>永恒古惑仔新区</span></td>
+                        <td><span id="current-date2"></span>开区</td>
                         <td><a href="https://wwbp.lanzouw.com/iGUPE38ewfpi" tppabs="雷神古惑仔.zip"target="_blank"><img src="images/downbtn.png" border="0" tppabs="/images/downbtn.png" /></a></td>
                         <td><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=f404471e7e1f0e87c8cd4836bc7e7bfbbb70b30ebda033d762f6d6e550acdce9"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="古惑仔传奇玩家群" title="古惑仔传奇玩家群"></a></td>
                         <td><a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=f404471e7e1f0e87c8cd4836bc7e7bfbbb70b30ebda033d762f6d6e550acdce9"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="古惑仔传奇玩家群" title="古惑仔传奇玩家群"></a></td>
@@ -194,6 +194,19 @@ var _hmt = _hmt || [];
 
 
     <script type="text/javascript">
+        // 获取当前日期并格式化
+        function getCurrentDate() {
+            var today = new Date();
+            var year = today.getFullYear();
+            var month = String(today.getMonth() + 1).padStart(2, '0');
+            var day = String(today.getDate()).padStart(2, '0');
+            return year + '-' + month + '-' + day;
+        }
+
+        // 设置页面中的日期显示
+        document.getElementById('current-date1').innerHTML = getCurrentDate();
+        document.getElementById('current-date2').innerHTML = getCurrentDate();
+
         var demo = document.getElementById("demo");
         var demo1 = document.getElementById("demo1");
         var demo2 = document.getElementById("demo2");
